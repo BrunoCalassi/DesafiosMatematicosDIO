@@ -9,6 +9,17 @@ public class test {
         int total = a+b; // Altere o valor da variável com o cálculo esperado
         System.out.println("X = " + total);
     }*/
+  public static void main (String [] args){
 
+            Scanner sc = new Scanner(System.in);
+            int a, b;
+
+            System.out.println("Recebe o valor do pimentão amarelo");
+            a = sc.nextInt();
+            System.out.println("Recebe o valor do pimentão vermelho");
+            b = sc.nextInt();
+            int total = a+b;;
+            System.out.println("X = " + total);
+        }
 
 }
